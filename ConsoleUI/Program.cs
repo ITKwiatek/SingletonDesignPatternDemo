@@ -8,8 +8,6 @@ namespace ConsoleUI
         static TableServers host2List = TableServers.GetTableServers();
         static void Main(string[] args)
         {
-            TableServers servers = TableServers.GetTableServers();
-
             for(int i=0; i<5; i++)
             {
                 Host1GetNextServer();
